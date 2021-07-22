@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whiteh"
+
+    tools:context=".memoryGame">
+
+    <include
+        layout="@layout/images"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginRight="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+    <TextView
+        android:id="@+id/tv_p1"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="90dp"
+        android:fontFamily="@font/bangers"
+        android:text="          Player_1: 0"
+        android:textSize="25sp"
+        android:textColor="#DA000000"
+        tools:layout_editor_absoluteX="true"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <TextView
+        android:id="@+id/tv_p2"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="90dp"
+        android:fontFamily="@font/bangers"
+        android:text="   Player_2: 0"
+        android:textSize="25sp"
+        android:textColor="#DA000000"
+        tools:layout_editor_absoluteX="true"
+        tools:layout_editor_absoluteY="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="269dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginLeft="82dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="121dp"
+        android:fontFamily="@font/bangers"
+        android:text="Memory Game"
+        android:textAlignment="center"
+        android:textColor="#231916"
+        android:textSize="28sp"
+        />
+</RelativeLayout>
